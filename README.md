@@ -16,12 +16,12 @@ Title: diabetes_prediction_dataset
     `(Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated.)`
 4) heart_disease [0,1] (0 - False, 1 - True)
 5) smoking_history [No info, never, not current, former, ever, current] 
-    `No info - No information regarding smoking history`
-    `Never - Never smoked before`
-    `Not current - Quit smoking for more than 12 months`
-    `Former - Quit smoking within the past 12 months`
-    `Ever - Has a smoking history regardless of whether current smoking or not`
-    `Current - Currently smoking`
+    - `No info - No information regarding smoking history`
+    - `Never - Never smoked before`
+    - `Not current - Quit smoking for more than 12 months`
+    - `Former - Quit smoking within the past 12 months`
+    - `Ever - Has a smoking history regardless of whether current smoking or not`
+    - `Current - Currently smoking`
 6) bmi [10.01-95.69] 
     `(BMI (Body Mass Index) is a measure of body fat based on weight and height.)`
 7) HbA1c_level [3.5-9.0] 
