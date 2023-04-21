@@ -82,7 +82,7 @@ We explore the use of Decision Trees as a machine learning model for our predict
 ## What has the team learnt from the project?
 1) There are many available algorithms and techniques for us to utilise and it highly depends on many factors of the dataset such as size, skew, type of variables, and others
 2) Previously, our team had the idea that any machine learning model would work fine for any dataset due to the lack of experience in building one ourselves. This project has corrected our wrong perceptions and given us insightful lessons.
-3) Outside of the project, we can derive from the findings from at least 89 thousand data that one should always be careful of their HbA1c_level. Being negligent in maintain the levels can result high possibilities of one developing diabetes 
+3) We can apply the insights from our findings in our lives that one should always be careful of their HbA1c_level. Being negligent in maintain the levels can result high possibilities of one developing diabetes 
 
 ## References
 - s
