@@ -82,7 +82,7 @@ We explore the use of Decision Trees as a machine learning model for our predict
 ## What has the team learnt from the project?
 1) There are many available algorithms and techniques for us to utilise and it highly depends on many factors of the dataset such as size, skew, type of variables, and others
 2) Previously, our team had the idea that any machine learning model would work fine for any dataset due to the lack of experience in building one ourselves. This project has corrected our wrong perceptions and given us insightful lessons.
-3) We can apply the insights from our findings in our lives that one should always be careful of the fluctuations HbA1c_level. Being negligent in maintaining the levels can result in high possibilities of one developing diabetes. Blood glucose level and BMI should be factors that one should take into consideration as well.
+3) We can apply the insights from our findings in our lives that one should always be careful of the fluctuations HbA1c_level. Being negligent in maintaining the levels can result in high possibilities of one developing diabetes. Despite HbA1c_level being the best predictor, we believe that Blood glucose level and BMI are factors that one should take into consideration as well.
 
 ## References
 - s
