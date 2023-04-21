@@ -32,16 +32,18 @@
     - `(Diabetes is the target variable being predicted)`
 
 ## Problem Definition
+s
+
 
 ## Algorithms/Libraries used
 **In syllabus**
 - s
-- s
 
 **Out of syllabus**
 - s
-- s
+
 ## Deliverables
+
 ### Dataset
 s
 ### Presentation Slides
@@ -57,12 +59,9 @@ s
 
 ## Conclusion
 - s
-- s
+
 ## What has the team learnt?
 1) s
-2) s
 
 ## References
-- s
-- s
 - s
