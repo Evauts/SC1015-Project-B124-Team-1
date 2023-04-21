@@ -7,8 +7,8 @@
 
 
 # About dataset
-Title: diabetes_prediction_dataset
-9 Columns - gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level, diabetes
+### Title: diabetes_prediction_dataset
+**9 Columns - gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level, diabetes**
 
 1) gender [Male / Female]
 2) age [0.08-80] 
