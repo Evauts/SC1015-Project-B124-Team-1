@@ -13,7 +13,7 @@ Title: diabetes_prediction_dataset
 1) gender [Male / Female]
 2) age [0.08-80] 
 3) hypertension [0,1] (0 - False, 1 - True)
-    `(Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated.)`
+    - `(Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated.)`
 4) heart_disease [0,1] (0 - False, 1 - True)
 5) smoking_history [No info, never, not current, former, ever, current] 
     - `No info - No information regarding smoking history`
@@ -23,12 +23,12 @@ Title: diabetes_prediction_dataset
     - `Ever - Has a smoking history regardless of whether current smoking or not`
     - `Current - Currently smoking`
 6) bmi [10.01-95.69] 
-    `(BMI (Body Mass Index) is a measure of body fat based on weight and height.)`
+    - `(BMI (Body Mass Index) is a measure of body fat based on weight and height.)`
 7) HbA1c_level [3.5-9.0] 
-    `(HbA1c (Hemoglobin A1c) level is a measure of a person's average blood sugar level over the past 2-3 months)`
+    - `(HbA1c (Hemoglobin A1c) level is a measure of a person's average blood sugar level over the past 2-3 months)`
 8) blood_glucose_level [80-300] 
-    `(Blood glucose level refers to the amount of glucose in the bloodstream at a given time. )`
+    - `(Blood glucose level refers to the amount of glucose in the bloodstream at a given time. )`
 9) diabetes [0,1] 
-    `(Diabetes is the target variable being predicted)`
+    - `(Diabetes is the target variable being predicted)`
     
   
