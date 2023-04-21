@@ -33,14 +33,27 @@
 
 ## Problem Definition
 
-## Concepts used
-**In school knowledge**
+## Algorithms/Libraries used
+**In syllabus**
 - s
 - s
 
-**Out of school knowledge**
+**Out of syllabus**
 - s
 - s
+## Deliverables
+### Dataset
+s
+### Presentation Slides
+s
+### Jupyter Notebook #1: Data Extraction, Data Cleaning
+s
+### Jupyter Notebook #2: EDA/Visualisations/Correlations
+s
+### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
+s
+### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
+s
 
 ## Conclusion
 - s
