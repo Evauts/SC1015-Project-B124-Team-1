@@ -1,9 +1,9 @@
 # **Mini project for SC1015, Group 1**
 
 ## About our team and contributions
-- Tan Chuan You (Data Cleaning, Data Visualization/EDA, Logistic Regression, Decision Tree)
-- Divya Gupta (Dataset selection, Logistic Regression, README file, Presentation Slides)
-- Tan Jun Liang (Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)
+- Tan Chuan You *(Data Cleaning, Data Visualization/EDA, Logistic Regression, Decision Tree)
+- Divya Gupta *(Dataset selection, Logistic Regression, README file, Presentation Slides)
+- Tan Jun Liang *(Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)
 
 
 ## About dataset
