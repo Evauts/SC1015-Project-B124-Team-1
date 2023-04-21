@@ -6,7 +6,7 @@
 - Tan Jun Liang (Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)
 
 
-# About dataset
+## About dataset
 ### Title: diabetes_prediction_dataset
 **9 Columns - gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level, diabetes**
 
