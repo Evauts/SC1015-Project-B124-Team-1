@@ -5,7 +5,28 @@
 - Divya Gupta *(Dataset selection, Logistic Regression, README file, Presentation Slides)*
 - Tan Jun Liang *(Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)*
 
+## Deliverables
 
+### Dataset
+A dataset from kaggle that where we extract our data from.
+
+### Presentation Slides
+A summarised content towards our progress in the project.
+
+### Jupyter Notebook #1: Data Extraction, Data Cleaning
+s
+### Jupyter Notebook #2: EDA/Visualisations/Correlations
+s
+### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
+s
+### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
+s
+
+## Problem Definition
+- What are the top 3 predictor for the response variable 'diabetes'?
+- What "out of syllabus" techniques can we apply to our dataset?
+- What models can best fit our data?
+- 
 ## About dataset
 ### Title: diabetes_prediction_dataset
 > 9 Columns - gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level, diabetes
@@ -31,37 +52,33 @@
 9) diabetes *[0,1]* 
     - `(Diabetes is the target variable being predicted)`
 
-## Problem Definition
-s
-
-
 ## Algorithms/Libraries used
 **In syllabus**
-- s
+- Numpy
+- Pandas
+- Seaborn
+- Matplotlib
+- Decision Tree
+- Sklearn
 
 **Out of syllabus**
-- s
+- Plotly
+- SMOTE (Oversampling)
+- Logistic Regression
+- GrideSearch (FineTuning Hyper parameters)
+- load_iris (Fine Tuning)
 
-## Deliverables
 
-### Dataset
-s
-### Presentation Slides
-s
-### Jupyter Notebook #1: Data Extraction, Data Cleaning
-s
-### Jupyter Notebook #2: EDA/Visualisations/Correlations
-s
-### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
-s
-### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
-s
+## Conclusion of insights
+- The top 3 predictors of the response variable are " ", " ", and " "
+- We were able to identify the best predictor as ""
+- The "what" machine learning model provided a better and more accurate fit for our data compared to "what"
+- Our fine-tuning methods were effective/uneffective/not that effective
 
-## Conclusion
-- s
-
-## What has the team learnt?
-1) s
+## What has the team learnt from the project?
+1) There are many available algorithms and techniques for us to utilise and it highly depends on many factors of the dataset such as size, skew, type of variables, and others
+2) Previously, our team had the idea that any machine learning model would work fine for any dataset due to the lack of experience in building one ourselves. This project has corrected our wrong perceptions and given us insightful lessons.
+3) Outside of the project, we can derive from the findings from at least 89 thousand data that one should always be careful of their HbA1c_level. Being negligent in maintain the levels can result high possibilities of one developing diabetes 
 
 ## References
 - s
