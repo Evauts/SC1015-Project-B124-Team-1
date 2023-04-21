@@ -30,5 +30,26 @@
     - `(Blood glucose level refers to the amount of glucose in the bloodstream at a given time. )`
 9) diabetes [0,1] 
     - `(Diabetes is the target variable being predicted)`
-    
-  
+
+## Problem Definition
+
+## Concepts used
+**In school knowledge**
+- s
+- s
+
+**Out of school knowledge**
+- s
+- s
+
+## Conclusion
+- s
+- s
+## What has the team learnt?
+1) s
+2) s
+
+## References
+- s
+- s
+- s
