@@ -13,7 +13,7 @@ Title: diabetes_prediction_dataset
 1) gender [Male / Female]
 2) age [0.08-80] 
 3) hypertension [0,1] (0 - False, 1 - True)
-    ''(Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated.)''
+    `(Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated.)`
 4) heart_disease [0,1] (0 - False, 1 - True)
 5) smoking_history [No info, never, not current, former, ever, current] 
     'No info - No information regarding smoking history'
