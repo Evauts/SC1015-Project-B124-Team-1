@@ -94,5 +94,5 @@ As the non-linear Decision tree gave us a better accuracy, we used Gradient Boos
 ## References
 - https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
 - https://sph.nus.edu.sg/2016/05/young-singaporean-diabetes-on-the-rise/#:~:text=Research%20studies%20conducted%20by%20the,by%20the%20age%20of%2065
-- https://realpython.com/logistic-regression-python/#logistic-regression-in-python-with-scikit-learn-example-1
-https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
+- https://realpython.com/logistic-regression-python/#logistic-regression-in-python-with-scikit-learn-example-1https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
+- https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
