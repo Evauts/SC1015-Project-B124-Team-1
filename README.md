@@ -14,10 +14,10 @@ A dataset from kaggle that where we extract our data from.
 A summarised content towards our progress in the project.
 
 ### Jupyter Notebook #1: Data Extraction, Data Cleaning
-As we extract our data from our dataset, the codes in this notebook aims to clean out the data from anomalies and outliers. By narrowing the spread of data, we improve the accuracy of our predictors.
+Imports all necessary libaries. We take a general view (such as min-max values,and distribution of data using boxplot) at our uncleaned data to spot anomalies or null values. From there, we clean out the anomalies and outliers to improve the accuracy of our predictors by narrowing the spread of data.
 
 ### Jupyter Notebook #2: EDA/Visualisations/Correlations
-After the cleaning of data in Notebook #1, we use multiple plotly graphs to visualise our data. We analyse the data with added visuals such as percentages of certain groups with the aim to spot trends and habits in gaining useful insights. By comparing correlations and visual data from the graphs,  we choose the best predictors that we can use to train our machine-learning models. 
+In further understanding our cleaned data, we utilise the module "plotly" in creating graphs to help us observe trends and data patterns better. Taking advantage of data such as percentages, we look at the distribution of diabetics among data groups with the to spot trends and habits in bringing us useful insights. By comparing correlations and visual data from the graphs,  we choose the best predictors that we can use to train our machine-learning models. 
 
 ### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
 We chose Logistic Regression to learn something new. Additionally, the outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. As our dataset is imbalance, this machine learning model has a performance matric that accounts for this issue. Furthermore, this model can take in both linear and non-linear data which allows us to use the different variables. To explain our workflow, we split our predictor data into two parts, numerical and categorical. Next, we find the coeeficients of each variable, plot the confusion matrix based on the trained logistic model. Lastly, evaluate the models accuracy through the accuracy, precision, F1-score, support and recall generated in the classification report.
