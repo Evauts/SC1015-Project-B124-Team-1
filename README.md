@@ -92,4 +92,7 @@ As the non-linear Decision tree gave us a better accuracy, we used Gradient Boos
 3) We can apply the insights from our findings in our lives that one should always be careful of the fluctuations HbA1c_level. Being negligent in maintaining the levels can result in high possibilities of one developing diabetes. Despite HbA1c_level being the best predictor, we believe that Blood glucose level and BMI are factors that one should take into consideration as well.
 
 ## References
-- s
+- https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
+- https://sph.nus.edu.sg/2016/05/young-singaporean-diabetes-on-the-rise/#:~:text=Research%20studies%20conducted%20by%20the,by%20the%20age%20of%2065
+- https://realpython.com/logistic-regression-python/#logistic-regression-in-python-with-scikit-learn-example-1
+https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
