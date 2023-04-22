@@ -8,12 +8,12 @@
 ## Problem Definition
 - What are the top 3 predictor for the response variable 'diabetes'?
 - What "out of syllabus" techniques can we apply to our dataset?
-- What models can best fit our data?
+- What models can best fit our dataset?
 
 ## Deliverables
 
 ### Dataset
-A dataset from Kaggle that where we extract our data from.
+A dataset from Kaggle where we extract our data from.
 
 ### Presentation Slides
 A summarised content and resources for our presentation of the project.
