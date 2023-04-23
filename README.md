@@ -79,8 +79,8 @@ Applying our knowledge in our syllabus, we explore the use of Decision Trees for
 >
 >8) Further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
-### Jupyter Notebook #5: Gradient Boosting Classifier
-As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifier as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and providing interpretable results. We found this model relevant and useful in analysing this dataset. 
+### Jupyter Notebook #5: Gradient Boosting Classifier and Evaluation of Models
+As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifier as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and providing interpretable results. We found this model relevant and useful in analysing this dataset. #### We will evaluate and compare the 3 different models in this Notebook to choose the best machine learning model.
 
 >**PROCESS**
 >1) Create and fit data into the Gradient Boosting Classifier model
