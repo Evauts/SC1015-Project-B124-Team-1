@@ -6,7 +6,7 @@
 - Tan Jun Liang *(Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)*
 
 ## Problem Definition
-- What are the top 3 predictor for the response variable 'diabetes'?
+- What is the top predictor for the response variable 'diabetes'?
 - What "out of syllabus" techniques can we apply to our dataset?
 - What models can best fit our dataset?
 
@@ -19,21 +19,26 @@ A dataset from Kaggle where we extract our data from.
 A summarised content and resources for our presentation of the project.
 
 ### Jupyter Notebook #1: Data Extraction, Data Cleaning
-Imports all necessary libaries. We take a general view (such as min-max values,and distribution of data using boxplot) at our uncleaned data to spot anomalies or null values. From there, we clean out the anomalies and outliers to improve the accuracy of our predictors by narrowing the spread of data.
+Imports all necessary libaries. We take a general view (such as min-max values and distribution of data using boxplot) at our uncleaned data to spot anomalies or null values. From there, we clean out the anomalies and outliers to improve the accuracy of our predictors by narrowing the spread of data.
 
 ### Jupyter Notebook #2: EDA/Visualisations/Correlations
-We utilise the module "plotly" in creating more detailed graphs that help us observe trends and data patterns better. We display and compare percentages, looking at the distribution of diabetics among data groups to spot trends and patterns that can bring us useful insights. As we evaluate our first set of graphs, we realised that our data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics. Hence, we split the data into train and test sets of ratio 8:2, use a hybrid technique for oversampling and undersampling (SMOTE + TOMEK) on the train dataset ONLY to 3:7 (Diabetics:Non-Diabetics). This reduction in imbalance allows us to better train our model and gain better accuracy while also retaining the reliability of our data. By examining correlations and graphs from the sampled data, we choose the best predictors to train our machine-learning models. 
+We utilise the module "plotly" in creating more detailed graphs that help us observe trends and data patterns better. We display and compare percentages, looking at the distribution of diabetics among data groups to spot trends and patterns that can bring us useful insights. As we evaluate our first set of graphs, we realised that our data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics). Hence, we split the data into train and test sets of ratio 8:2, use a hybrid technique on the train dataset ONLY for oversampling and undersampling (SMOTE + TOMEK) to 3:7 ratio (Diabetics:Non-Diabetics). This reduction in imbalance allows us to better train our model and gain better accuracy while also retaining the reliability of our data. By examining correlations and graphs from the sampled data, we choose the best predictors to train our machine-learning models. 
 
 `Chosen Predictors: age, HbA1c_level, bmi and blood_gluclose_level`
 
 ### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
-We chose Logistic Regression to learn something new. The outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. Logistic Regression has a performance matric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance. Furthermore, this model can evaluate both linear and non-linear data which allows for more complex relationships to be captured. Firstly, we fit our data into the model then fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we train the model with our train and test dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. Lastly, we evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
+The outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. Logistic Regression has a performance matric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance after cleaning. 
+
+`**Process**
+1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
+2)We train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
+3)We evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.`
 
 ### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
-Applying our knowledge in our syllabus, we explore the use of Decision Trees for our predictors. A big reason is that decision tree captures non-linear relationships between predictor variables and outcome, evaluating and presenting complex relationships between our predictors and response variable. With our huge data of 124k rows, decision tree is suitable as it can be scaled to handle larger data.  First, we fit the data into our model, fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data, then plot a decision tree to find the importance of each variable. Lastly, we evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
+Applying our knowledge in our syllabus, we explore the use of Decision Trees for our predictors. A big reason is that the decision tree captures non-linear relationships between predictor variables and outcome, evaluating and presenting complex relationships between our predictors and response variable. With our huge data of 124k rows, the decision tree is suitable as it can be scaled to handle larger data.  First, we fit the data into our model and fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data, then plot a decision tree to find the importance of each variable. Lastly, we evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
 ### Jupyter Notebook #5: Gradient Boosting Classifier
-As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifer as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and provides interpretable results. We found this model relevant and useful in analysing this dataset. First, we fit our data into the model, fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data, evaluate the model's accuracy with  information such as accuracy, precision, F1-score, support and recall generated in a classification report. Then, look at the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. Another factor we take in is the importance of the predictors.
+As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifier as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and providing interpretable results. We found this model relevant and useful in analysing this dataset. First, we fit our data into the model and fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data and evaluate the model's accuracy with information such as accuracy, precision, F1-score, support and recall generated in a classification report. Then, look at the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data. Another factor we take in is the importance of the predictors.
 
 
 ## About dataset
@@ -75,21 +80,20 @@ As the non-linear Decision tree gave us a better accuracy, we used Gradient Boos
 - SMOTE and Temok (Hybrid, oversampling + undersampling)
 - Logistic Regression
 - GridSearch (FineTuning Hyper parameters)
-- load_iris (Fine Tuning)
 - Gradient Boosting Classification
 - Receiver Operating Characteristic(ROC) Graph
 
 
 ## Conclusion of insights
-- The top 3 predictors of the response variable **"diabetes"** are **" "**, **" "**, and **" "**
-- We were able to identify the **best** predictor as **""**
-- The "what" machine learning model provided a better and more accurate fit for our data compared to "what"
-- Our fine-tuning methods were effective/uneffective/not that effective
+- We were able to identify the **best** predictor as **"HbA1c_level"** for the response variable **"diabetes"**
+- The **Gradient Boosting Classifier** machine learning model provided the most accuracy of 0.97 fit for our data compared to Logistic Regression and Decision Trees
+- Our fine-tuning methods such as gridsearch were **effective** as it improved our machine learning models.
 
 ## What has the team learnt from the project?
-1) There are many available algorithms and techniques for us to utilise and it highly depends on many factors of the dataset such as size, skew, type of variables, and others
-2) Previously, our team had the idea that any machine learning model would work fine for any dataset due to the lack of experience in building one ourselves. This project has corrected our wrong perceptions and given us insightful lessons.
-3) We can apply the insights from our findings in our lives that one should always be careful of the fluctuations HbA1c_level. Being negligent in maintaining the levels can result in high possibilities of one developing diabetes. Despite HbA1c_level being the best predictor, we believe that Blood glucose level and BMI are factors that one should take into consideration as well.
+1) Due to our lack of experience in building a machine learning model, our team had the naive idea that any machine learning model would work for any dataset. This project has corrected our wrong perceptions and given us insightful lessons. It is important for us to examine our dataset properly before choosing from the many available algorithms and techniques. To pick a suitable machine learning model, it is crucial to consider the influential factors of dataset such as size, distribution, types of variable, and the advantageous that the machine learning model can bring to your project.
+2) 
+3) With the increasing amount of youths developing diabetes, it is important for us to apply the insights from our findings into our lives that one should always be careful of the fluctuations in their HbA1c levels which is the average blood sugar levels over the past 3 months. Being negligent in maintaining the levels can result in high possibilities of one developing diabetes. Despite HbA1c_level being the best predictor, we believe that Blood glucose level and BMI are factors that one should take into consideration as well due to their moderate correlations to diabetes.
+4) As we all say, `"better safe than sorry"` and `"better to prevent than to cure"`
 
 ## References
 - https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
