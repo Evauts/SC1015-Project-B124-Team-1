@@ -32,9 +32,9 @@ The outcome derived from the model is binary, which fits our response variable '
 >**Process**
 
 >1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
-
+>
 >2)We train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
-
+>
 >3)We evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
 ### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
