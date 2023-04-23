@@ -167,4 +167,6 @@ As the non-linear Decision tree gave us a better accuracy, we used Gradient Boos
 - https://www.mygreatlearning.com/blog/gridsearchcv/#:~:text=GridSearchCV%20FAQs-,What%20is%20GridSearchCV%3F,on%20the%20value%20of%20hyperparameters.
 - https://stats.stackexchange.com/questions/144897/gradientboostclassifiersklearn-takes-very-long-time-to-train
 - https://www.scribbr.com/methodology/stratified-sampling/
-- https://www.analyticsvidhya.com/blog/2021/03/comparison-of-pearson-and-spearman-correlation-coefficients/#:~:text=Pearson%20correlation%3A%20Pearson%20correlation%20evaluates,rather%20than%20the%20raw%20data.
+- https://www.analyticsvidhya.com/blog/2021/03/comparison-of-pearson-and-spearman-correlation-coefficients/#:~:text=Pearson%20correlation%3A%20Pearson%20correlation%20evaluates,rather%20than%20the%20raw%20data
+- https://www.flaticon.com/free-icons/education
+- https://news.nus.edu.sg/demystifying-diabetes/
