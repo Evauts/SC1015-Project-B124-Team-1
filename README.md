@@ -43,18 +43,61 @@ Logistic Regression evaluates binary outcomes, which fits our response variable 
 
 >**PROCESS**
 >
->1) Fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
+>1) Create and fit data into the Gradient Boosting Classifier model
 >
->2) Train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
+>2) Pick out best hyperparameters needed for train dataset with gridsearch 
 >
->3) Evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. 
->4) Further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
+>3) Fine-tune hyperparameters to create improved model
+>
+>4) Train model with test and train dataset 
+>
+>5) Compare coeeficients of each variable.
+>
+>6) Plot the confusion matrix based on the Logistic Regression Model. 
+>
+>7) Evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. 
+>
+>8) Further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
 ### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
-Applying our knowledge in our syllabus, we explore the use of Decision Trees for our predictors. A big reason is that the decision tree captures non-linear relationships between predictor variables and outcome, evaluating and presenting complex relationships between our predictors and response variable. With our huge data of 124k rows, the decision tree is suitable as it can be scaled to handle larger data.  First, we fit the data into our model and fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data, then plot a decision tree to find the importance of each variable. Lastly, we evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
+Applying our knowledge in our syllabus, we explore the use of Decision Trees for our predictors. A big reason is that the decision tree captures non-linear relationships between predictor variables and outcome, evaluating and presenting complex relationships between our predictors and response variable. With our huge data of 124k rows, the decision tree is suitable as it can be scaled to handle larger data.  
+>**PROCESS**
+>
+>1) Create and fit data into the Gradient Boosting Classifier model
+>
+>2) Pick out best hyperparameters needed for train dataset with gridsearch 
+>
+>3) Fine-tune hyperparameters to create improved model
+>
+>4) Train model with test and train dataset
+>
+>5) Plot the confusion matrix to see the general prediction of our data
+>
+>6) Plot a decision tree to find the importance of each variable. 
+>
+>7) Evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data.
+>
+>8) Further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
 ### Jupyter Notebook #5: Gradient Boosting Classifier
-As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifier as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and providing interpretable results. We found this model relevant and useful in analysing this dataset. First, we fit our data into the model and fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data and evaluate the model's accuracy with information such as accuracy, precision, F1-score, support and recall generated in a classification report. Then, look at the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data. Another factor we take in is the importance of the predictors.
+As the non-linear Decision tree gave us a better accuracy, we used Gradient Boosting Classifier as it improves on weak prediction models such as decision trees to create a stronger predictive model. With the benefits such as handling complex data, high-dimensional data, imbalanced class distributions and providing interpretable results. We found this model relevant and useful in analysing this dataset. 
+
+>**PROCESS**
+>1) Create and fit data into the Gradient Boosting Classifier model
+>
+>2) Pick out best hyperparameters needed for train dataset with gridsearch 
+>
+>3) Fine-tune hyperparameters to create improved model
+>
+>4) Train model with test and train dataset
+>
+>5) Plot the confusion matrix to see the general prediction of our data
+>
+>6) Evaluate the model's accuracy with information such as accuracy, precision, F1-score, support and recall generated in a classification report. 
+>
+>7) Look at the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data
+>
+>8) Evaluate the importance of predictors.
 
 
 ## About dataset
