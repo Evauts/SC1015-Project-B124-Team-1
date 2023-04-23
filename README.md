@@ -1,11 +1,13 @@
 # **Mini project for SC1015, Group 1**
 
 ## About our team and contributions
-- Tan Chuan You *(Data Cleaning, Data Visualization/EDA, Logistic Regression, Decision Tree)*
-- Divya Gupta *(Dataset selection, Logistic Regression, README file, Presentation Slides)*
-- Tan Jun Liang *(Data Cleaning, Data Visualization/EDA, README file, Video creation and editing)*
+- Tan Chuan You *(Data Cleaning, Data Visualization/EDA, Logistic Regression, Decision Tree, Gradient Boosting Classifier))*
+- Divya Gupta *(Dataset selection, Logistic Regression, README file, Presentation Slides, Gradient Boosting Classifier)*
+- Tan Jun Liang *(Data Cleaning, Data Visualization/EDA, README file,Presentation Slides, Video creation and editing)*
 
 ## Problem Definition
+Main Problem: What actionable steps can a youth take to prevent the onset of the disease?
+Sub-problems:
 - What is the top predictor for the response variable 'diabetes'?
 - What "out of syllabus" techniques can we apply to our dataset?
 - What models can best fit our dataset?
