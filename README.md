@@ -32,7 +32,7 @@ We utilise the module "plotly" in creating more detailed graphs that help us obs
 >2) Hence, split the data into train and test sets of ratio 8:2
 >
 >3) Use a hybrid technique on the train dataset ONLY for oversampling and undersampling (SMOTE + TOMEK) to 3:7 ratio (Diabetics:Non-Diabetics)
->   - This reduction in imbalance allows us to better train our models and gain better accuracy while also retaining the reliability of our data. 
+->  This reduction in imbalance allows us to better train our models and gain better accuracy while also retaining the reliability of our data. 
 >
 >4) By examining correlations and graphs from the sampled data, we choose the best predictors to train our machine-learning models and justify the drop of the other predictors.
 
