@@ -22,14 +22,26 @@ A summarised content and resources for our presentation of the project.
 Imports all necessary libaries. We take a general view (such as min-max values and distribution of data using boxplot) at our uncleaned data to spot anomalies or null values. From there, we clean out the anomalies and outliers to improve the accuracy of our predictors by narrowing the spread of data.
 
 ### Jupyter Notebook #2: EDA/Visualisations/Correlations
-We utilise the module "plotly" in creating more detailed graphs that help us observe trends and data patterns better. We display and compare percentages, looking at the distribution of diabetics among data groups to spot trends and patterns that can bring us useful insights. As we evaluate our first set of graphs, we realised that our data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics). Hence, we split the data into train and test sets of ratio 8:2, use a hybrid technique on the train dataset ONLY for oversampling and undersampling (SMOTE + TOMEK) to 3:7 ratio (Diabetics:Non-Diabetics). This reduction in imbalance allows us to better train our model and gain better accuracy while also retaining the reliability of our data. By examining correlations and graphs from the sampled data, we choose the best predictors to train our machine-learning models. 
+We utilise the module "plotly" in creating more detailed graphs that help us observe trends and data patterns better. We display and compare percentages, looking at the distribution of diabetics among data groups to spot trends and patterns that can bring us useful insights. 
 
-`Chosen Predictors: age, HbA1c_level, bmi and blood_gluclose_level`
+>**PROCESS**
+>
+>1) Plot and evaluate our first set of graphs
+> - Realised that data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics)
+>
+>2) Hence, split the data into train and test sets of ratio 8:2
+>
+>3) Use a hybrid technique on the train dataset ONLY for oversampling and undersampling (SMOTE + TOMEK) to 3:7 ratio (Diabetics:Non-Diabetics)
+>
+> - This reduction in imbalance allows us to better train our models and gain better accuracy while also retaining the reliability of our data. 
+>4) By examining correlations and graphs from the sampled data, we choose the best predictors to train our machine-learning models and justify the drop of the other predictors.
+
+`Chosen Predictors: age, HbA1c_level, bmi and blood_glucose_level`
 
 ### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
-The outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. Logistic Regression has a performance matric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance after cleaning. 
+Logistic Regression evaluates binary outcomes, which fits our response variable 'diabetes' with the values 0 and 1. This model has a performance metric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance after cleaning. 
 
->**Process**
+>**PROCESS**
 >
 >1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
 >
