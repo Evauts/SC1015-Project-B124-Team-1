@@ -30,7 +30,7 @@ We utilise the module "plotly" in creating more detailed graphs that help us obs
 The outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. Logistic Regression has a performance matric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance after cleaning. 
 
 >**Process**
-
+>
 >1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
 >
 >2)We train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
