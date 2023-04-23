@@ -29,10 +29,13 @@ We utilise the module "plotly" in creating more detailed graphs that help us obs
 ### Jupyter Notebook #3: Machine Learning Model 1 - Logistic Regression & Fine-tuning
 The outcome derived from the model is binary, which fits our response variable 'diabetes' with the values 0 and 1. Logistic Regression has a performance matric that accounts for imbalance data issue which is preferred for our data as there still exists minor imbalance after cleaning. 
 
-`**Process**
-1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
-2)We train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
-3)We evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.`
+>**Process**
+
+>1)We fit our data into the model and fine-tune the model with gridsearch which returns the best hyperparameters needed for our train datasets. 
+
+>2)We train the model with our test and train dataset to find the coeeficients of each variable and plot the confusion matrix based on the Logistic Regression Model. 
+
+>3)We evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account of imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
 
 ### Jupyter Notebook #4: Machine Learning Model 2 - Decision Tree & Fine-tuning
 Applying our knowledge in our syllabus, we explore the use of Decision Trees for our predictors. A big reason is that the decision tree captures non-linear relationships between predictor variables and outcome, evaluating and presenting complex relationships between our predictors and response variable. With our huge data of 124k rows, the decision tree is suitable as it can be scaled to handle larger data.  First, we fit the data into our model and fine-tune the model with gridsearch that returns the best hyperparameters needed for our train datasets. Secondly, we plot the confusion matrix to see the general prediction of our data, then plot a decision tree to find the importance of each variable. Lastly, we evaluate the model's accuracy through the Area Under Curve (AUC) from the Receiver Operating Characteristic(ROC) graph which takes into account imbalance data. We also further evaluate through information such as accuracy, precision, F1-score, support and recall generated in a classification report.
