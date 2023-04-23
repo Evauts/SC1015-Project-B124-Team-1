@@ -27,7 +27,7 @@ We utilise the module "plotly" in creating more detailed graphs that help us obs
 >**PROCESS**
 >
 >1) Plot and evaluate our first set of graphs
->   - Realised that data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics)
+>> Realised that data was imbalanced at 0.9:9.1 (Diabetics:Non-Diabetics)
 >
 >2) Hence, split the data into train and test sets of ratio 8:2
 >
